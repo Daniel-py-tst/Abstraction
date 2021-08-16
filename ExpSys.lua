@@ -28,6 +28,7 @@ local function GiveXp(player, am)
 	end
 end
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 script.Parent.ClickDetector.MouseClick:Connect(function(player)
 	GiveXp(player, 200)
 end)
